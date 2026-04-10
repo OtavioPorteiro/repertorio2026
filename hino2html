@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Pai,Eu confiarei</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f9f9f9;
+    padding:40px;
+}
+
+h1{
+    color:#2c3e50;
+}
+
+a{
+    display:block;
+    margin:10px 0;
+    color:#3498db;
+    font-size:18px;
+}
+
+.letra{
+    margin-top:20px;
+    background:#eeeeee;
+    padding:20px;
+    border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Pai,Eu confiarei/h1>
+
+
+<a href="https://youtu.be/bEOhYTpQXV4?si=djNNxTZigi3Os9gz" target="_blank">
+▶ Ouvir no YouTube
+</a>
+
+<a href="https://youtu.be/QdFiXFz9qxg?si=nFV9cBAJ40K8Kb08" target="_blank">
+🎹 Playback no meu tom
+</a>
+
+<div class="letra">
+
+<div class="letra">
+
+<h3>Letra</h3>
+
+<p>
+Eu sei que a caminhada<br>
+É tão difícil de seguir<br>
+É tão bom estar sorrindo<br>
+É tão bom estar sorrindo<br>
+Eu quero ver tua fé<br>
+Quando o mundo te esquecer<br>
+Lembrarás que Eu Sou o teu Deus?<br>
+<p>
+
+<p>
+Deixarás te levar? (Confio em Ti)<br>
+Vai em mim descansar? (Confio em Ti)<br>
+Lembrarás das promessas que Eu te fiz? (Eu te fiz)<br>
+Quando for impossível (clamarás a Mim)<br>
+Clamarás a Mim? (Clamarás a Mim)<br>
+Lembrarás que Sou teu Pai ou me esquecerás?<br>
+<p>
+
+<p>
+Senhor, eu confio em Ti<br>
+<p>
+
+<p>
+Eu sei que a caminhada<br>
+É tão difícil de seguir<br>
+É tão bom estar sorrindo<br>
+Quando tudo vai bem<br>
+Eu quero ver tua fé<br>
+Quando o mundo te esquecer<br>
+Lembrarás que Eu Sou o teu Deus?<br>
+E se chorares? (Confio em Ti)<br>
+E se te machucares? (Confio em Ti)<br>
+Lembrarás das promessas que Eu te fiz? (Eu te fiz)<br>
+Quando for impossível (clamarás a Mim)<br>
+Clamarás a Mim? (Clamarás a Mim)<br>
+Lembrarás que Sou teu Pai ou me esquecerás?<br>
+<p>
+
+<p>
+Senhor, eu confio em Ti<br>
+<p>
+
+<p>    
+Eu confio, confio em Ti<br>
+<p>
+
+<p>
+Oh<br>
+Pai, eu confiarei<br>
+Pai, eu confiarei<br>
+Pai, eu confiarei<br>
+Oh, oh, oh, oh<br>
+Pai, eu confiarei<br>
+Pai, eu confiarei<br>
+Pai, eu confiarei<br>
+Eu confiarei<br>
+<p>
+
+<p>
+Lembrarás que Sou teu Pai ou me esquecerás?<br>
+<p>
+
+<p>
+Senhor, eu confio em Ti<br>
+<p>
+
+</div>
+
+<br>
+
+<a href="index.html">⬅ Voltar</a>
+
+</body>
+</html>
