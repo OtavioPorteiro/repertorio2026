@@ -1,39 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Repertório do Otávio</title>
 
 <style>
 
-body{
-    font-family: Arial;
-    background-color:#f4f4f4;
-    text-align:center;
+:root{
+    --cor-principal:#2c3e50;
+    --cor-secundaria:#3498db;
+    --cor-hover:#2980b9;
+    --fundo:#f4f4f4;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:var(--fundo);
+    text-align:center;
+    color:#333;
+}
+
+/* HEADER */
 header{
-    background:#2c3e50;
+    background:var(--cor-principal);
     color:white;
+    padding:30px 20px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+header p{
+    max-width:700px;
+    margin:0 auto;
+    line-height:1.5;
+}
+
+/* CONTAINER */
+.container{
+    margin-top:40px;
     padding:20px;
 }
 
-.container{
-    margin-top:40px;
+/* VIDEO */
+video{
+    margin:20px 0;
+    border-radius:10px;
+    max-width:100%;
+}
+
+/* BOTÕES */
+.buttons{
+    margin-top:20px;
 }
 
 button{
-    padding:15px 30px;
-    font-size:18px;
-    background:#3498db;
+    padding:15px 25px;
+    font-size:16px;
+    background:var(--cor-secundaria);
     color:white;
     border:none;
     border-radius:8px;
     cursor:pointer;
+    margin:10px;
+    transition:0.3s;
 }
 
 button:hover{
-    background:#2980b9;
+    background:var(--cor-hover);
+    transform:scale(1.05);
+}
+
+/* RODAPÉ */
+footer{
+    margin-top:50px;
+    padding:20px;
+    font-size:14px;
+    color:#777;
 }
 
 </style>
@@ -43,30 +95,41 @@ button:hover{
 <body>
 
 <header>
-<h1>Repertório do Otávio</h1>
-<p>No entanto, está chegando a hora, e de fato já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade. São estes os adoradores que o Pai procura. Deus é espírito, e é necessário que os seus adoradores o adorem em espírito e em verdade".
-<br>João 4:23-24<br>
+    <h1>🎶 Repertório do Otávio</h1>
+
+    <p>
+    "No entanto, está chegando a hora, e de fato já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade. 
+    São estes os adoradores que o Pai procura. Deus é espírito, e é necessário que os seus adoradores o adorem em espírito e em verdade."
+    <br><strong>João 4:23-24</strong>
+    </p>
 </header>
 
-<div class="container">
+<main class="container">
 
-<h2>🎤 Eu cantando</h2>
+    <h2>🎤 Eu cantando</h2>
 
-<video width="360" controls>
-<source src="meuvideo.mp4" type="video/mp4">
-</video>
+    <video controls>
+        <source src="meuvideo.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+    </video>
 
-<p>Selecione um hino:</p>
+    <p>Selecione um hino:</p>
 
-<a href="hino1.html">
-<button>Meu Plano é Perfeito</button>
-</a>
+    <div class="buttons">
+        <a href="hino1.html">
+            <button>Meu Plano é Perfeito</button>
+        </a>
 
-<a href="hino2.html">
-<button>Pai,Eu confiarei</button>
-</a>
-</div>
+        <a href="hino2.html">
+            <button>Pai, Eu Confiarei</button>
+        </a>
+    </div>
 
+</main>
+
+<footer>
+    © 2026 - Otávio | O MAIS MAIS
+</footer>
 
 </body>
 </html>
